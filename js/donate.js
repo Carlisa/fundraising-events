@@ -21,6 +21,11 @@ Donate({
            ;
     }
   , onChange: function (val, li, e) {
+        document.querySelector("[name=amount]").value = val;
     }
-  , defaultValue: 20
+  , defaultValue: 100
+});
+
+$(".btn-donate").on("click", function () {
+    $("form").submit();
 });
