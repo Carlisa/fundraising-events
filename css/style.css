@@ -198,11 +198,6 @@ body {
 #slide-1 h1 {
     padding-top: 130px;
 }
-@media (max-width: 991px) {
-    #slide-1 {
-        background-position: -70% 0, 170% 0;
-    }
-}
 @media (max-width: 767px) {
     #slide-1 {
         background-image: none;
@@ -289,10 +284,18 @@ body {
     font-size: 20px;
     font-weight: 300;
 }
+
+h3.watch-out {
+    font-family: "Titillium Web", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-top: -230px;
+    margin-bottom: 230px;
+}
+
 i {
     font-size: 80px;
     color: white;
 }
+
 @media (max-width: 767px) {
     .title-row {
         font-size: 34px;
