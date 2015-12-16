@@ -558,3 +558,16 @@ button.btn.btn-donate {
     width: 857px;
     max-width: 100%;
 }
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    color: white;
+    text-decoration: underline;
+}
+
+ul a:hover, ul a:focus {
+    color: white;
+}
